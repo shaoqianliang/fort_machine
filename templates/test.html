@@ -1,0 +1,76 @@
+{% load util %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{#{{ 'hello world'| truncate_chars }}#}
+{#{{ request }} //前端直接可以获取request对象#}
+{#<form action="" method="post">#}
+{#    {% csrf_token %}  //post请求时，需要携带的数据#}
+{#    <input type="submit" value="提交">#}
+{#</form>#}
+<form action="#" method="post" enctype="multipart/form-data">
+    <input type="file" name="file"multiple>
+    <input type="submit" value="提交">
+</form>
+
+{#<span onclick="javascript:void(alert('hello world'))">吊我啊</span>#}
+
+
+
+{#//原生的Ajax请求时基于XmlHttpRequest完成的#}
+<script>
+            //原生的ajax请求，XmlHttpRequest对象生成
+            function GetXHR(){
+            var xhr = null;
+            if(XMLHttpRequest){
+                xhr = new XMLHttpRequest();  //IE7 fix浏览器支持的
+            }else{
+                xhr = new ActiveXObject("Microsoft.XMLHTTP"); //低版本的IE浏览器
+            }
+            return xhr;
+
+        }
+
+        function XhrPostRequest(){
+            var xhr = GetXHR();
+            // 定义回调函数
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState == 4){
+                    // 已经接收到全部响应数据，执行以下操作
+                    var data = xhr.responseText;
+                    console.log(data);
+                }
+            };
+            // 指定连接方式和地址----文件方式
+            xhr.open('POST', "/test/", true);
+            // 设置请求头
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset-UTF-8');
+            // 发送请求
+            xhr.send('n1=1;n2=2;');
+        }
+
+        function XhrGetRequest(){
+            var xhr = GetXHR();
+            // 定义回调函数
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState == 4){
+                    // 已经接收到全部响应数据，执行以下操作
+                    var data = xhr.responseText;
+                    console.log(data);
+                }
+            };
+            // 指定连接方式和地址----文件方式
+            xhr.open('get', "/test/", true);
+            // 发送请求
+            xhr.send();
+        }
+
+</script>
+
+
+</body>
+</html>

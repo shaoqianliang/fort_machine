@@ -1,0 +1,38 @@
+        <div class="panel col-lg-3">
+            <div class="panel-heading">
+                <h3 class="panel-title">主机组 <span id="selected_hosts"></span></h3>
+            </div>
+            <div class="panel-body">
+
+                <ul class="list-group" id="host_groups">
+                {% for group in  request.user.account.host_group.all %}
+
+                    <li class="list-group-item " ><span class="badge badge-success">{{ group.group_bind_host.count }}</span>
+                        <input type="checkbox" onclick="CheckAll(this)">
+                        <a onclick="DisplayHostList(this)">{{ group.name }}</a>
+
+
+                        <ul class="hide" style="list-style: none">
+                            {% for bind_host in group.group_bind_host.all %}
+                                <li><input onclick="ShowCheckedHostCount()" type="checkbox" value="{{ bind_host.id }}">{{ bind_host.host.ip_addr }}</li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+
+                {% endfor %}
+                    <li class="list-group-item " > <span class="badge badge-success">{{ request.user.account.bind_user_host.all.count }}</span>
+                       <input type="checkbox" onclick="CheckAll(this)">
+                        <a onclick="DisplayHostList(this)">未分组主机</a>
+                        <ul class="hide" style="list-style: none">
+                            {% for bind_host in request.user.account.bind_user_host.all %}
+                                <li><input onclick="ShowCheckedHostCount()" type="checkbox" value="{{ bind_host.id }}">{{ bind_host.host.ip_addr }}</li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+
+                </ul>
+
+
+
+            </div>
+        </div>

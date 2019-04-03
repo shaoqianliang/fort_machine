@@ -1,0 +1,128 @@
+<script src="/static/format.js"></script>
+<script>
+    function  DisplayHostList(self) {
+        $(self).next().toggleClass("hide");
+    }
+
+    function CheckAll(self){
+        {#console.log($(self).prop('checked')); //True or False#}
+        $(self).parent().find("ul :checkbox").prop('checked',$(self).prop('checked'));  //?????不懂怎么计算选中的标签
+
+        ShowCheckedHostCount()
+    }
+
+    function ShowCheckedHostCount(){
+        var selected_host_count = $("#host_groups ul").find(":checked").length;
+        {#console.log(selected_host_count);//计算个数#}
+        $("#selected_hosts").text(selected_host_count);
+        return selected_host_count
+    }
+
+
+    function GetTaskResult(task_id,task_timeout){
+        $.getJSON("{% url 'task_result' %}",{'task_id':task_id},function(callback){
+        console.log(callback);
+        var result_ele = '';
+        var finish_count = 0;
+        var all_task_finish = true;
+        $.each(callback,function(index,i) {
+            var signal_result = "<p>{id} {ip_addr} {status} <pre>{result}</pre></p>".format({
+                    'id': i.host_user_bind.host_hostname,
+                    'ip_addr': i.host_user_bind.host.ip_addr,
+                    'status': i.status,
+                    'result': i.result
+                }); //循环单个结果
+            result_ele += signal_result;
+            if (i.status !== 3) {
+                all_task_finish = false
+            } else {
+                finish_count += 1
+            }
+        })
+            });  //任务结果拼接，其中pre标签，复制默认的格式
+
+        $("#task_result").html(result_ele); //html中显示task_result
+        var finish_percent = parseInt(finish_count / length(callback)*100); //进度条
+        $("#task_progress").text(finish_percent+"%");
+        $("#task_progress").css("width",finish_percent +"%");
+        //满足条件清除定时器
+        if (task_timeout_counter<task_timeout){task_timeout_counter+=2}
+        else{
+            clearInterval(result_timer,
+            $.niftyNoty({
+                type: 'danger',
+                container : '#task_result_panel',
+                html : '<h4 class="alert-title">Task timed out!</h4><p class="alert-message">The task has timed out!</p><div class="mar-top"><button type="button" class="btn btn-info" data-dismiss="noty">Close this notification</button></div>',
+                closeBtn : false
+                })
+            )}
+
+    }
+
+
+    function  PostTask(task_type) {
+        //1. 验证主机列表已选，命令已输入
+        //2. 提交任务到后台
+        var selected_host_ids = [];
+        var selected_host_eles = $("#host_groups ul").find(":checked");
+        $.each(selected_host_eles,function (index,ele) {
+            selected_host_ids.push($(ele).val()) //js 列表的增删取（左右）
+        });
+        console.log(selected_host_ids);
+        if ( selected_host_ids.length == 0){
+            alert("主机未选择!");
+            return false   //结束执行function
+        }
+
+        if ( task_type == 'cmd'){
+            var cmd_text = $.trim($("#cmd").val());  //trim()类似python中strip 删除首尾空格
+            if ( cmd_text.length == 0){
+                alert("命令不能为空!");
+                return false
+
+            }
+        }else {
+            //file_transfer
+            var remote_path = $("#remote_path").val();
+            if ($.trim(remote_path).length == 0){
+                alert("must specify remote path ");
+                return false
+            }
+        }
+
+
+
+        var task_data = {
+            'task_type':task_type,
+            'selected_host_ids':selected_host_ids //cmd or transfer 任务
+            };
+        if ( task_type == 'cmd'){
+            task_data['content'] =  cmd_text
+        }else {
+            var file_transfer_type = $("select[name='transfer-type']").val();  //文件传输
+            task_data['file_transfer_type'] = file_transfer_type;
+            task_data['random_str'] = "{{ random_str }}";
+            task_data['remote_path'] = $("#remote_path").val()
+
+
+        }
+
+        $.post("{% url 'multitask' %}",{'csrfmiddlewaretoken':"{{ csrf_token }}",
+                'task_data':JSON.stringify(task_data)},
+            function(callback){
+                    // task id
+                    var callback = JSON.parse(callback);
+                    GetTaskResult(callback.task_id,callback.timeout);  //轮询查询结果
+                    task_timeout_counter = 0;// add 2 during each call of GetTaskResult
+                    result_timer = setInterval(function () {
+                        GetTaskResult(callback.task_id,callback.timeout)
+                    },2000);
+
+                    //display download file btn
+                    $("#file-download-btn").removeClass("hide").
+                    attr('href', "{% url 'task_file_download' %}?task_id="+callback.task_id);
+
+                }
+            )
+    }
+</script>

@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login in</title>
+</head>
+<link rel="stylesheet" href={% static "\bootstrap-3.3.7-dist\css\bootstrap.css"  %}>
+
+<body>
+        <div class="container col-md-6 col-md-offset-3">
+            <div class="panel_primary" style="margin-top: 100px">
+                <div class="panel-heading" style="border-top-left-radius: 30px;border-top-right-radius: 30px;">
+                    <h3>登录界面</h3>
+
+{#                    big-info 重要文字#}
+                <div class="panel-body bg-info" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px">
+                <div class="panel-heading" style="border-bottom-right-radius: 30px;border-bottom-left-radius: 30px;">
+                    <form class="form form-horizontal" action="" method="post" >
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <label for="username" class="control-label pull-left">用户名</label>
+                            <div class="col-md-9 ">
+                                <input id="username" name="username" placeholder="username">    </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="pull-left control-label font-1">密码</label>
+                            <div class="col-md-9 ">
+                                <input id="password" name="pwd" placeholder="password">    </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-9">
+                            <input type="submit" value="提交">
+                        </div>
+
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

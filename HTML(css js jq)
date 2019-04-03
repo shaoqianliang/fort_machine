@@ -1,0 +1,131 @@
+# 3.常用的基本标签
+# h1 | p | div | a | img | ul>li | (br|hr) | i,b,sup,sub.pre | span | table>thead|tbody|tfoot>tr>th|td
+
+### 屏幕适配
+
+```html
+<meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+背景图片
+   <style>
+        .div {
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+        }
+        .div {
+            background-image: url("img/001.png");
+            /*平铺: repeat-x | repeat-y | repeat | no-repeat*/
+            background-repeat: no-repeat;
+            /*背景图片位置*/
+            /*水平: left|center|right  垂直:top|center|bottom*/
+            background-position: -200px 50px;
+        }
+        .div:hover {
+            transition: 2s;
+            background-position-x: center;
+        }
+</style>
+
+盒子布局
+        div {
+            /*屏幕水平居中*/
+            /*margin-left: calc((100% - 500px) / 2);*/
+            /*屏幕水平居右*/
+            /*margin-left: auto;*/
+        }# 3.常用的基本标签
+# h1 | p | div | a | img | ul>li | (br|hr) | i,b,sup,sub.pre | span | table>thead|tbody|tfoot>tr>th|td
+
+背景图片
+   <style>
+        .div {
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+        }
+        .div {
+            background-image: url("img/001.png");
+            /*平铺: repeat-x | repeat-y | repeat | no-repeat*/
+            background-repeat: no-repeat;
+            /*背景图片位置*/
+            /*水平: left|center|right  垂直:top|center|bottom*/
+            background-position: -200px 50px;
+        }
+        .div:hover {
+            transition: 2s;
+            background-position-x: center;
+        }
+</style>
+
+盒子布局
+        div {
+            /*屏幕水平居中*/
+            /*margin-left: calc((100% - 500px) / 2);*/
+            /*屏幕水平居右*/
+            /*margin-left: auto;*/
+        }
+
+数据类型转换
+    ----转字符  String() | .toString() " "
+    ----转数字 Number（） | parseFloat | parseInt
+    ---- 布尔类型 Boolean()
+
+
+函数
+   可以返回 空值/False  结束语句
+
+
+jquery控制内容：
+    text() | html() | val()
+
+jquery 控制样式
+    width() | height() | innerHeight() | innerWidth() | outerHeight() | outerWidth()
+
+        position() | offset()
+
+jquery控制类名
+    addClass() |removeClass() | toggleClass()  //切换使用，单击添加（双击删除）类
+
+
+内置函数 splice（n,m，p）从索引n开始,删除m，被p代替，根据需求可以实现增 删 改 查，（没有p就是删除）
+
+
+定时器
+    ---一次性定时器
+    var r1=setTimeout(finction(){
+        console.log('超时了我要执行')
+    },1000) //参数超时时间
+
+    ---持续性定时器
+    var r2=setInterval(function(){
+        alert（）
+    }，1500)
+
+    ///解除定时器
+        clearTimeout(r1) | clearInterval(r1)
+
+
+
+
+# 九、文件上传 -- Form表单
+
+前端：upload.html页面
+1.往自身路径发送post请求，要将第四个中间件注释
+2.multipart/form-data格式允许发送文件
+3.multiple属性表示可以多文件操作
+<form action="" method="post" enctype="multipart/form-data">
+    <input type="file" name="files" multiple="multiple">
+
+模板语言 --常见内置filter
+    --语法 {{ 变量|过滤器 参数 |过滤器 参数}}
+    // 注：过滤器可以串联，类似管道符
+    ---常见内置filter
+    --增加 add：num
+    --字符串长度 length
+    ---全大写 upper
+    ---全小写 lower
+    --- 切片 slice
+    ---字符隐藏 truncatechars 只显示10额字节，后面。。。代替
+    ---date ：‘Y-m-d’
+    ---表示原意 safe （等价于django的mark_safe）

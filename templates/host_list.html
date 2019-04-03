@@ -1,0 +1,118 @@
+{% extends 'index.html' %}
+
+{% block content-container %}
+    <div id="content-title">
+        <h2>主机列表</h2>
+{#        搜索框#}
+        <div class="searchbox ">
+            <div class="input-group custom-search-form">
+                <input type="text" class="form-control" placeholder="Search..">
+                <span class="input-group-btn">
+                    <button class="text-muted" type="button"><i class="pli-magnifi-glass"></i></button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+{#    位置快捷方式#}
+    <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Library</a></li>
+        <li class="active">主机列表</li>
+    </ol>
+
+{#    个人用户管理的远程主机#}
+{#        {% block page_content %}#}
+        <div id="page-content">
+
+        <div class="panel col-lg-3">
+            <div class="panel-heading">
+                <h3 class="panel-title">主机组</h3>
+            </div>
+
+            <div class="panel-body">
+                <ul class="list-group">
+
+                {% for group in  obj.host_group.all %}
+                    <li class="list-group-item " onclick="GetHostList({{ group.id }},this)"><span class="badge badge-success">{{ group.group_bind_host.count }}</span>{{ group.name }}</li>
+                {% endfor %}
+                    <li class="list-group-item " onclick="GetHostList(-1,this)"> <span class="badge badge-success">{{ obj.bind_user_host.count }}</span>未分组主机</li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="panel col-lg-9">
+            <div class="panel-heading">
+                <h3 class="panel-title">主机列表</h3>
+            </div>
+            <div class="panel-body">
+
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Hostname</th>
+                                <th>IP</th>
+                                <th>IDC</th>
+                                <th>Port</th>
+                                <th>Username</th>
+                                <th>Login</th>
+                                <th>Token</th>
+                            </tr>
+                        </thead>
+                        <tbody id="host_list">
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+<script rel="stylesheet" src="/static/format.js"></script>
+<script>
+
+
+
+    function GetHostList(id,self) {
+        $.ajax({
+            url:"{% url 'get_host_list' %}",
+            {#url:'/api/host_list/',#}
+            type:'POST',
+            data:{'id':id,'csrfmiddlewaretoken':"{{ csrf_token }}"},
+            success: function(data) {
+                var trs = '';
+                $.each(JSON.parse(data),function (index,obj) {
+
+                    var tr = "<tr><td>{k1}</td><td>{k2}</td><td>{k3}</td><td>{k4}</td><td>{k5}</td><td>令牌</td><td class='btn btn-info' onclick=gettoken(this,{k6})>Token</td></tr>".Format({k1:obj[0],k2:obj[1],k3:obj[2],k4:obj[3],k5:obj[4],k6:obj[5]});
+                    trs += tr;
+                    {#’hello world {0}‘.Format（string）的方式可能显示不全，建议使用传入字典的的方式{key1:value1,key2,value2}#}
+                    });
+                $("#host_list").html(trs);
+
+
+            }
+        });
+        $(self).addClass('active').siblings().removeClass('active');   //点击高亮
+    }
+
+        function gettoken(self,id) {
+        $.ajax({
+            url:'{% url 'get_token' %}',
+            type:'POST',
+            data:{ip_id:id,'csrfmiddlewaretoken':"{{ csrf_token }}"},
+            success: function (args) {
+                {#直接传入this，函数内部用其他替换，不然不好用#}
+                $(self).prev().text(args.token)
+
+            }
+        })
+    }
+
+</script>
+{#            {% endblock %}#}
+{% endblock %}
+
+

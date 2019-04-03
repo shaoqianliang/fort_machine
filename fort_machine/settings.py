@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'aqorag)qarw0nr(4d1^*9g8$th%y&llls!30oej+f!1elw+v$@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True  #False 是生产环境，开发模式是True
 
 ALLOWED_HOSTS = []
 
@@ -37,12 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'audit',
 ]
-
+from django.contrib.sessions.middleware import SessionMiddleware
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',    'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -106,7 +106,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/shanghai'
 
 USE_I18N = True
 
@@ -114,8 +115,24 @@ USE_L10N = True
 
 USE_TZ = True
 
+#dir of multi_task
+MULTI_TASK_SCRIPT = os.path.join(BASE_DIR,'audit/backend/remote_interactive.py')
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+#固定变量STATICFILES_DIRS 静态文件路径，列表格式
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+#用来上传静态文件，对外公开（通过web路由访问）
+MEDIA_ROOT =  os.path.join(BASE_DIR,'media')
+
+LOGIN_URL = '/LOGIN'
+
+
+# ===============上传/下载文件路径===============
+UPLOAD_FILE = os.path.join(BASE_DIR,'upload')
+DOWNLOAD_FILE = os.path.join(BASE_DIR,'download')

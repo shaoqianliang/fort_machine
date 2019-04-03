@@ -1,0 +1,42 @@
+{% extends 'host_list.html' %}
+
+{% block title %}
+    上传or批量操作主机
+{% endblock %}
+
+{% block content-container%}
+        <div id="page-title">
+        <h1 class="page-header text-overflow">主机列表</h1>
+
+    <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Library</a></li>
+        <li class="active">主机列表</li>
+    </ol>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!--End breadcrumb-->
+
+    <div id="page-content">
+        {% include 'components/hostgroups.html' %}
+        <div class="col-lg-9">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-title">命令</h3>
+                </div>
+                <div class="panel-body">
+{#                    直接绑定task_type类型#}
+                    <textarea class="form-control" id="cmd"></textarea>
+                    <button onclick="PostTask('cmd')" class="btn btn-info pull-right">执行</button>
+                    <button  class="btn btn-danger ">终止</button>
+
+                </div>
+            </div>
+            {% include 'components/taskresult.html' %}
+        </div>
+
+        </div>
+    </div>
+
+
+    {% include 'components/multitask_js.html' %}
+{% endblock %}
