@@ -4,7 +4,7 @@ import os,sys
 
 def cmd(task_log):
     """基于sshclient登录"""
-    try:  #可能连接或者执行错误
+    try:
         ssh = paramiko.SSHClient()
         ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy()) #申明不需要在记录中
 
@@ -55,10 +55,9 @@ if __name__ == "__main__":
     sys.path.append(bash_path)
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "fort_machine.settings")
     import django
-    django.setup() #手动注册django所有的APP
+    django.setup()
     from audit import models
     import json
-    #调用django下fore_machine环境
     task_id = sys.argv[1]
     import multiprocessing
     pool = multiprocessing.Pool(processes=10)

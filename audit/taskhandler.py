@@ -53,15 +53,9 @@ class Task():
         models.TaskLog.objects.bulk_create(task_list,100)  #批量创建任务日志
         # getattr(self,self.task_data['task_type'])() #执行cmd或者文件传输
         import subprocess
-        # cmd_str= 'python3 %s %s' %(settings.MULTI_TASK_SCRIPT,
-        #                 json.dumps(self.task_data).replace(' ',''))
-        #
-        # multi_task_obj = subprocess.Popen(cmd_str, shell=True,
-        #                 stdin=subprocess.PIPE, stdout=subprocess.PIPE,
-        #                 stderr=subprocess.PIPE)
         multi_task_obj = subprocess.Popen('python3 %s %s' %(
                         settings.MULTI_TASK_SCRIPT,
                         task_obj.id), shell=True,
                         stdin=subprocess.PIPE, stdout=subprocess.PIPE,
-                        stderr=subprocess.PIPE)  # 开启多进程，远程连接服务器，分步执行命令,适合传递单个简单参数
+                        stderr=subprocess.PIPE)
         return task_obj

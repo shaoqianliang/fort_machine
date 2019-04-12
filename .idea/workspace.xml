@@ -2,885 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="944e9557-8afc-4717-b074-c45097a03003" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/06905c7b-d919-4bf1-a43b-54d082df6ca4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/06905c7b-d919-4bf1-a43b-54d082df6ca4/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8518c879-6045-48ae-bf79-0d8726fac97b.corrupted.20190314-091500.reason.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8518c879-6045-48ae-bf79-0d8726fac97b.corrupted.20190314-091500.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML(css js jq)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/backend/remote_interactive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/backend/ssh_interactive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0002_auto_20190316_1432.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0003_auto_20190318_1011.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0004_auto_20190318_1013.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0005_user_nid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0006_auto_20190318_1015.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0007_auto_20190318_1018.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0008_auto_20190321_2348.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0009_auto_20190324_1117.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0010_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0011_auto_20190325_1629.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0012_auto_20190325_1633.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0013_auto_20190325_1634.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0014_auto_20190325_1721.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0015_auto_20190325_1723.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0016_auto_20190325_2256.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0017_auto_20190327_1643.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0018_auto_20190328_1514.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0019_auto_20190331_1458.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/migrations/0020_auto_20190331_1501.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/taskhandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audit/templatetags/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/.skipped-commit-ids" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/CREDITS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ChangeLog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/INSTALL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/LICENCE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/OVERVIEW" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.agent" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.certkeys" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.chacha20poly1305" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.krl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.mux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/README.dns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/README.platform" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/README.privsep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/README.tun" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/TODO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/aclocal.m4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/addrmatch.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/atomicio.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/atomicio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/audit-bsm.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/audit-linux.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/audit.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/audit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-bsdauth.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-krb5.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-options.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-options.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-pam.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-pam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-passwd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-rhosts.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-shadow.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-sia.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-sia.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-skey.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-chall.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-gss.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-hostbased.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-kbdint.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-none.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-passwd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-pubkey.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/authfd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/authfd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/authfile.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/authfile.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/bitmap.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/bitmap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/blocks.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/bufaux.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/bufbn.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/bufec.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/buffer.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/buffer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/buildpkg.sh.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/canohost.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/canohost.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/chacha.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/chacha.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/channels.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/channels.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-3des1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-aes.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-aesctr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-aesctr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-bf1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-chachapoly.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-chachapoly.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-ctr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cleanup.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/clientloop.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/clientloop.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/compat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/compat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/config.guess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/config.h.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/config.sub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/configure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/configure.ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/aix/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/aix/buildbff.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/aix/inventory.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/aix/pam.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/cygwin/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/cygwin/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/cygwin/ssh-host-config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/cygwin/ssh-user-config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/cygwin/sshd-inetd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/findssl.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/gnome-ssh-askpass1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/gnome-ssh-askpass2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/hpux/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/hpux/egd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/hpux/egd.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/hpux/sshd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/hpux/sshd.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/gnome-ssh-askpass.csh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/gnome-ssh-askpass.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/openssh.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/sshd.init" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/sshd.init.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/sshd.pam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/sshd.pam.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/solaris/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/ssh-copy-id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/ssh-copy-id.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/sshd.pam.freebsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/sshd.pam.generic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/suse/openssh.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/suse/rc.config.sshd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/suse/rc.sshd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/suse/sysconfig.ssh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/crc32.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/crc32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/crypto_api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/deattack.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/deattack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/defines.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dh.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dh.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/digest-libc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/digest-openssl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/digest.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dispatch.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dispatch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dns.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dns.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ed25519.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/entropy.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/entropy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fatal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fe25519.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fe25519.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fixalgorithms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fixpaths" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fixprogs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ge25519.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ge25519.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ge25519_base.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/groupaccess.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/groupaccess.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/gss-genr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/gss-serv-krb5.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/gss-serv.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/hash.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/hmac.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/hmac.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/hostfile.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/hostfile.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/includes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/install-sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexc25519.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexc25519c.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexc25519s.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexdh.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexdhc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexdhs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexecdh.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexecdhc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexecdhs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexgex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexgexc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexgexs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/key.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/key.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/krl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/krl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/log.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/log.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/loginrec.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/loginrec.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/logintest.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/mac.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/mac.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/match.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/match.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/md-sha256.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/md5crypt.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/md5crypt.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/mdoc2man.awk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/misc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/misc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/mkinstalldirs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/moduli" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/moduli.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/moduli.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/moduli.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor_fdpass.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor_fdpass.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor_wrap.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor_wrap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/msg.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/msg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/mux.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/myproposal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/nchan.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/nchan.ms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/nchan2.ms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/opacket.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/opacket.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/arc4random.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/base64.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/base64.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/basename.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bcrypt_pbkdf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bindresvport.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/blf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/blowfish.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-asprintf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-closefrom.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-cray.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-cray.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-cygwin_util.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-cygwin_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-err.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-getpeereid.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-misc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-misc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-nextstep.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-nextstep.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-openpty.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-poll.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-poll.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-setres_id.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-setres_id.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-snprintf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-statvfs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-statvfs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-waitpid.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-waitpid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/chacha_private.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/charclass.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/daemon.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/dirname.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/explicit_bzero.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/fake-rfc2553.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/fake-rfc2553.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/fmt_scaled.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getcwd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getgrouplist.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getopt.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getopt_long.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getrrsetbyname-ldns.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getrrsetbyname.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getrrsetbyname.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/glob.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/glob.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/inet_aton.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/inet_ntoa.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/inet_ntop.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/kludge-fd_set.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/md5.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/md5.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/mktemp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/openbsd-compat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/openssl-compat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/openssl-compat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-aix.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-aix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-irix.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-irix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-linux.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-linux.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-solaris.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-solaris.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-tun.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-tun.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-uw.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-uw.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/pwcache.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/readpassphrase.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/readpassphrase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/reallocarray.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/realpath.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/closefromtest.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/opensslvertest.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/snprintftest.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/strduptest.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/strtonumtest.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/rmd160.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/rmd160.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/rresvport.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/setenv.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/setproctitle.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sha1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sha1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sha2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sha2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sigact.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sigact.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strcasestr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strlcat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strlcpy.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strmode.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strnlen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strptime.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strsep.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strtoll.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strtonum.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strtoul.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strtoull.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sys-queue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sys-tree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/timingsafe_bcmp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/vis.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/vis.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/xcrypt.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openssh.xml.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/opensshd.init.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/packet.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/packet.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/pathnames.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/pkcs11.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/platform-pledge.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/platform-tracing.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/platform.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/platform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/poly1305.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/poly1305.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/progressmeter.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/progressmeter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/readconf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/readconf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/readpass.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/README.regress" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/addrmatch.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/agent-getpeereid.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/agent-pkcs11.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/agent-ptrace.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/agent-timeout.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/agent.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/allow-deny-users.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/banner.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/broken-pipe.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/brokenkeys.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cert-file.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cert-hostkey.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cert-userkey.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cfginclude.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cfgmatch.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cfgparse.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/check-perm.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cipher-speed.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/conch-ciphers.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/connect-privsep.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/connect.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/dhgex.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/dsa_ssh2.prv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/dsa_ssh2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/dynamic-forward.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/envpass.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/exit-status.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/forcecommand.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/forward-control.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/forwarding.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/host-expand.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/hostkey-agent.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/hostkey-rotate.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/integrity.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/kextype.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/key-options.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keygen-change.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keygen-convert.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keygen-knownhosts.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keygen-moduli.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keys-command.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keyscan.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keytype.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/krl.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/limit-keytype.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/localcommand.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/login-timeout.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/misc/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/misc/kexfuzz/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/misc/kexfuzz/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/misc/kexfuzz/kexfuzz.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/modpipe.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/moduli.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/multiplex.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/multipubkey.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/netcat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/portnum.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/principals-command.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/proto-mismatch.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/proto-version.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/proxy-connect.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/putty-ciphers.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/putty-kex.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/putty-transfer.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/reconfigure.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/reexec.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/rekey.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/rsa_openssh.prv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/rsa_openssh.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/rsa_ssh2.prv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/scp-ssh-wrapper.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/scp.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/setuid-allowed.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-badcmds.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-batch.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-chroot.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-cmds.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-glob.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-perm.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/ssh-com-client.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/ssh-com-keygen.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/ssh-com-sftp.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/ssh-com.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/ssh2putty.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sshcfgparse.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sshd-log-wrapper.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/stderr-after-eof.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/stderr-data.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/t11.ok" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/t4.ok" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/t5.ok" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/test-exec.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/transfer.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/try-ciphers.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/Makefile.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/bitmap/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/bitmap/tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/conversion/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/conversion/tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/mktestdata.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/test_iterate.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_1.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_3.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_4.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_5.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_6.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_1.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_3.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_4.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_5.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_6.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_1.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_3.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_4.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_5.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_6.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/known_hosts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_1.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_3.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_4.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_5.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_6.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_1.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_3.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_4.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_5.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_6.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/kex/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/kex/test_kex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/kex/tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/match/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/match/tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_fixed.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_fuzz.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_getput_basic.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_getput_crypto.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_getput_fuzz.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_misc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/common.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/mktestdata.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/test_file.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/test_fuzz.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/test_sshkey.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1-cert.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1-cert.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.fp.bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.param.g" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.param.priv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.param.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1_pw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2.fp.bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_n" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_n_pw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1-cert.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1-cert.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.fp.bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.param.curve" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.param.priv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.param.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1_pw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.fp.bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.param.curve" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.param.priv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.param.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_n" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_n_pw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1-cert.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1-cert.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1.fp.bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1_pw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2.fp.bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/pw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.fp.bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.param.n" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1_pw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.fp.bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.param.n" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1-cert.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1-cert.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.fp.bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.param.n" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.param.p" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.param.q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1_pw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.fp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.fp.bb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.param.n" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.param.p" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.param.q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_n" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_n_pw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/test_helper/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/test_helper/fuzz.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/test_helper/test_helper.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/test_helper/test_helper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/utf8/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/utf8/tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/valgrind-unit.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/yes-head.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/rijndael.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/rijndael.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/rsa.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/rsa.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-capsicum.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-darwin.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-null.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-pledge.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-rlimit.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-seccomp-filter.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-solaris.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-systrace.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sc25519.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sc25519.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/scp.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/scp.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/scp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/servconf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/servconf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/serverloop.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/serverloop.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/session.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/session.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-client.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-client.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-common.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-glob.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-server-main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-server.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-server.8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-server.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/smult_curve25519_ref.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-add.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-add.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-add.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-agent.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-agent.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-agent.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-dss.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-ecdsa.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-ed25519.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-gss.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keygen.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keygen.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keygen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keyscan.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keyscan.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keyscan.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keysign.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keysign.8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keysign.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11-client.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11-helper.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11-helper.8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11-helper.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-rsa.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-sandbox.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh_api.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh_api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh_config.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh_config.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshbuf-getput-basic.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshbuf-getput-crypto.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshbuf-misc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshbuf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshbuf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshconnect.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshconnect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshconnect1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshconnect2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd.8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd_config.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd_config.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssherr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssherr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshkey.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshkey.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshlogin.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshlogin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshpty.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshpty.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshtty.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/survey.sh.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ttymodes.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ttymodes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/uidswap.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/uidswap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/umac.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/umac.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/utf8.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/utf8.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/uuencode.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/uuencode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/verify.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/version.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/xmalloc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/openssh-7.5p1/xmalloc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/.deps/main.Po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/ChangeLog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/INSTALL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/NEWS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/aclocal.m4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/compile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/config.h.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/config.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/config.status" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/configure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/configure.ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/depcomp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/install-sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/main.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/missing" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/sshpass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/sshpass.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sshpass-1.06/stamp-h1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/nifty.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/pace.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-coffee.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-dark.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-dust.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-lime.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-mint.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-navy.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-ocean.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-prickly-pear.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-well-red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-coffee.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-dark.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-dust.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-lime.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-mint.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-navy.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-ocean.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-prickly-pear.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-well-red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-coffee.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-dark.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-dust.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-lime.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-mint.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-navy.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-ocean.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-prickly-pear.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-well-red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dropzone/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dropzone/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dropzone/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dropzone/dropzone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dropzone/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/format.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/bg-img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/flags/france.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/flags/germany.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/flags/italy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/flags/spain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/flags/united-kingdom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/gs-collapsed-nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/gs-error-page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/gs-expanded-nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/gs-login-w-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/gs-login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/gs-push-nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/gs-reveal-nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/gs-slide-in-nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/linux.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/profile-photos/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/profile-photos/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/profile-photos/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/profile-photos/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/profile-photos/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/profile-photos/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/profile-photos/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/profile-photos/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/profile-photos/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/profile-photos/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/nifty.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/pace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/magic-check/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/magic-check/css/magic-check.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/magic-check/css/magic-check.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/magic-check/sass/_checkbox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/magic-check/sass/_common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/magic-check/sass/_radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/magic-check/sass/_variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/magic-check/sass/magic-check.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/premium-line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/premium-line-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/premium-solid-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/premium-solid-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/hostgroups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/multitask_js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/taskresult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/host_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/multi_cmd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/multi_files_transfer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fort_machine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fort_machine.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audit/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/audit/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audit/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/audit/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audit/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/audit/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML(css js jq)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audit/backend/remote_interactive.py" beforeDir="false" afterPath="$PROJECT_DIR$/audit/backend/remote_interactive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audit/taskhandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/audit/taskhandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audit/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/audit/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/audit/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fort_machine/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/fort_machine/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fort_machine/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fort_machine/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -890,7 +21,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/fort_machine$manage.coverage" NAME="manage Coverage Results" MODIFIED="1554281769097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fort_machine$tests.coverage" NAME="tests Coverage Results" MODIFIED="1554281621783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/audit" />
+    <SUITE FILE_PATH="coverage/fort_machine$tests.coverage" NAME="tests Coverage Results" MODIFIED="1554299225047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/audit" />
     <SUITE FILE_PATH="coverage/fort_machine$clinet.coverage" NAME="clinet Coverage Results" MODIFIED="1552637624908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/audit" />
   </component>
   <component name="DatabaseView">
@@ -930,42 +61,7 @@
     <favorites_list name="fort_machine" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/audit/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-400">
-              <caret line="100" column="24" lean-forward="true" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
-              <folding>
-                <element signature="e#1634#2162#0" />
-                <element signature="e#2229#3068#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/components/hostgroups.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/audit/taskhandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="59" column="72" lean-forward="true" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1045,22 +141,22 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/components/hostgroups.html" />
-        <option value="$PROJECT_DIR$/templates/test.html" />
-        <option value="$PROJECT_DIR$/fort_machine/urls.py" />
         <option value="$PROJECT_DIR$/templates/multi_files_transfer.html" />
         <option value="$PROJECT_DIR$/templates/components/multitask_js.html" />
         <option value="$PROJECT_DIR$/fort_machine/settings.py" />
-        <option value="$PROJECT_DIR$/audit/tests.py" />
         <option value="$PROJECT_DIR$/a.txt" />
+        <option value="$PROJECT_DIR$/audit/tests.py" />
+        <option value="$PROJECT_DIR$/fort_machine/urls.py" />
+        <option value="$PROJECT_DIR$/audit/views.py" />
         <option value="$PROJECT_DIR$/audit/taskhandler.py" />
         <option value="$PROJECT_DIR$/audit/backend/remote_interactive.py" />
-        <option value="$PROJECT_DIR$/audit/views.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="114" />
-    <option name="y" value="12" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="100" />
+    <option name="y" value="8" />
     <option name="width" value="1187" />
     <option name="height" value="748" />
   </component>
@@ -1086,22 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="fort_machine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fort_machine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fort_machine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fort_machine" type="462c0819:PsiDirectoryNode" />
-              <item name="fort_machine" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1142,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python.tests">
     <configuration name="clinet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fort_machine" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1240,8 +321,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manage" />
         <item itemvalue="Python.tests" />
+        <item itemvalue="Python.manage" />
         <item itemvalue="Python.clinet" />
       </list>
     </recent_temporary>
@@ -1338,12 +419,16 @@
       <workItem from="1554164947485" duration="26328000" />
       <workItem from="1554212113759" duration="1282000" />
       <workItem from="1554245138494" duration="3320000" />
-      <workItem from="1554251127268" duration="17723000" />
+      <workItem from="1554251127268" duration="18983000" />
+      <workItem from="1554298942231" duration="1828000" />
+      <workItem from="1554338761841" duration="686000" />
+      <workItem from="1554606562136" duration="1373000" />
+      <workItem from="1555109724338" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384512000" />
+    <option name="totallyTimeSpent" value="390253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1355,15 +440,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="12" width="1187" height="748" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49421966" visible="true" weight="0.16353887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49421966" visible="true" weight="0.15144597" />
       <window_info id="Structure" order="1" weight="0.24885845" />
       <window_info x="554" y="279" width="225" height="174" id="Favorites" order="2" show_stripe_button="false" sideWeight="0.50578034" side_tool="true" type="FLOATING" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3280142" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.31914893" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.31866196" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1414,34 +498,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://06905c7b-d919-4bf1-a43b-54d082df6ca4/schema/main/table/audit_account_host_group">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit/backend/ssh_interactive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/http/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="568" lean-forward="true" selection-start-line="568" selection-end-line="568" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit_shell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/audit_shell.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/pool.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-437">
@@ -1449,13 +506,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/paramiko/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2321">
-          <caret line="217" column="8" selection-start-line="217" selection-start-column="8" selection-end-line="217" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/paramiko/client.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1463,13 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/utils/six.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="809" column="4" selection-start-line="809" selection-start-column="4" selection-end-line="809" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/utils/six.py" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/rest_framework/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1433">
@@ -1477,16 +522,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audit/templatetags/util.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/http/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="498" column="8" selection-start-line="498" selection-start-column="8" selection-end-line="498" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/http/response.py" />
     <entry file="das://06905c7b-d919-4bf1-a43b-54d082df6ca4/schema/main/table/audit_account_bind_user_host">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1596,20 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13319">
-          <caret line="703" column="8" selection-start-line="703" selection-start-column="8" selection-end-line="703" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/os.py" />
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1617,13 +640,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/conf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3064">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/conf/__init__.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1089221969/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1631,42 +648,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/contrib/auth/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/contrib/auth/decorators.py" />
     <entry file="file://$PROJECT_DIR$/upload/1/6lih8ns9/2.jpg" />
     <entry file="file://$PROJECT_DIR$/upload/1/6lih8ns9/3.jpg" />
     <entry file="file://$PROJECT_DIR$/templates/multi_fils_transfer.html" />
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/db/transaction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="264" column="4" lean-forward="true" selection-start-line="264" selection-start-column="4" selection-end-line="264" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1194">
-          <caret line="1039" column="12" selection-start-line="1039" selection-start-column="12" selection-end-line="1039" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fort_machine/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#636#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/django/db/transaction.py" />
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/subprocess.py" />
     <entry file="das://06905c7b-d919-4bf1-a43b-54d082df6ca4/schema/main/table/audit_task">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1681,20 +668,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/readme" />
     <entry file="das://06905c7b-d919-4bf1-a43b-54d082df6ca4/schema/main/table/django_content_type">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
         </state>
       </provider>
     </entry>
@@ -1712,13 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/a.txt" />
     <entry file="file://$PROJECT_DIR$/fort_machine/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24">
@@ -1729,30 +701,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/paramiko/transport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="287" column="17" lean-forward="true" selection-start-line="287" selection-start-column="17" selection-end-line="287" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/paramiko/sftp_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="784" column="8" selection-start-line="784" selection-start-column="8" selection-end-line="784" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/hostgroups.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit/clinet.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/paramiko/transport.py" />
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/paramiko/sftp_client.py" />
+    <entry file="file://$PROJECT_DIR$/audit/clinet.py" />
     <entry file="file://$PROJECT_DIR$/audit/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1763,31 +714,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audit/backend/remote_interactive.py">
+    <entry file="file://$PROJECT_DIR$/HTML(css js jq)" />
+    <entry file="file://$PROJECT_DIR$/templates/components/hostgroups.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        <state relative-caret-position="284">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audit/taskhandler.py">
+    <entry file="file://$PROJECT_DIR$/../python3.6/Lib/site-packages/redis/client.py" />
+    <entry file="file://$PROJECT_DIR$/audit/templatetags/util.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/tests.py" />
+    <entry file="file://$PROJECT_DIR$/fort_machine/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="59" column="72" lean-forward="true" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+        <state relative-caret-position="33">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#636#668#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/audit/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="100" column="24" lean-forward="true" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+        <state relative-caret-position="128">
+          <caret line="137" column="31" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
           <folding>
-            <element signature="e#1634#2162#0" />
-            <element signature="e#2229#3068#0" />
+            <element signature="e#26#70#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/taskhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/backend/ssh_interactive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/backend/remote_interactive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>

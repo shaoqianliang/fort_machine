@@ -11,8 +11,21 @@ from django.conf import settings
 import json,os
 from audit import taskhandler
 from django.views.decorators.csrf import csrf_exempt
+import zipfile
 # from django.views import View
 
+def send_zipfile(request,task_id,file_path):
+    """
+    Create a ZIP file on disk and transmit it in chunks of 8KB,
+    without loading the whole file into memory. A similar approach can
+    be used for large dynamic PDF files.
+    """
+    zip_file_name = 'task_id_%s_files' % task_id
+    archive = zipfile.ZipFile(zip_file_name , 'w', zipfile.ZIP_DEFLATED)
+    file_list = os.listdir(file_path)
+    for filename in file_list:
+        archive.write('%s/%s' %(file_path,filename),arcname=filename)
+    archive.close()
 
 
 def my_login(request):
@@ -33,18 +46,8 @@ def my_login(request):
 @login_required(login_url='/login')
 def index(request):
     obj = models.Account.objects.filter(user=request.user.pk).first().bind_user_host.all()
-    #必须变成models下的类才有属性,queryset只是个特殊的字典
     return render(request,'index.html',locals())
 
-
-
-def register(request):
-    """
-    暂时不提供注册
-    :param request:
-    :return:
-    """
-    pass
 
 
 def host_list(request):
@@ -55,8 +58,11 @@ def host_list(request):
 
 
 def ajax_host(request):
-    #获取我的主机列表
-    # //get 等价于filter（）.first（）
+    '''
+    ajax请求获取主机列表
+    :param request:
+    :return:
+    '''
     id = request.POST.get('id')
     if id:
         if id == '-1':
@@ -65,20 +71,24 @@ def ajax_host(request):
         else:
             host_list = models.Account.objects.filter(user=request.user.pk).first().host_group.get(id=id).group_bind_host.all()
         data = json.dumps(list(host_list.values_list('host__hostname','host__ip_addr','host__idc__name','host__port','host_user__username','host_id')),ensure_ascii=False)
-    return HttpResponse(data)
+        return HttpResponse(data)
+    else:
+        return HttpResponse('主机组不存在')
 
 @login_required(login_url='/login')
 def ajax_token(request):
-    #拿到过时时间
+    """
+    生成token,用于shellinabox,浏览器模拟登录shell
+    :param request:
+    :return:
+    """
     ex_time = datetime.datetime.now()-datetime.timedelta(models.Token.objects.filter(account=request.user.account).first().expire)
-    # 生成8位随机验证码,sample:可迭代对象中取k个值
     host_id = request.POST.get('ip_id')
     token_obj = models.Token.objects.filter(account=request.user.account.id,date__lt=ex_time,host_user_bind__host=host_id).first()
     if token_obj:
         token = token_obj.token
     else:
         token = ''.join(random.sample(string.ascii_lowercase+string.digits,8))
-        #？？？疑问点 外键关联或者.属性，不然携带_id(oneToone)
         models.Token.objects.create(
             host_id=host_id,
             account=request.user.account,
@@ -88,9 +98,6 @@ def ajax_token(request):
     return JsonResponse({'token':token,'ip_id':host_id})
 
 
-    #all()或者models.User.objects() values value__list 都是queryset对象，看做特殊的列表，内部是字典
-    #first（）则是Model的子类，通过属性.查找
-
 @login_required(login_url='/login')
 def multi_cmd(request):
     """命令输入界面"""
@@ -99,8 +106,8 @@ def multi_cmd(request):
 
 @login_required(login_url='/login')
 def multi_task(request):
-    """批量执行命令"""
-    task = taskhandler.Task(request)   #验证用后，执行cmd或上传
+    """批量执行命令,cmd/上传/下载文件"""
+    task = taskhandler.Task(request)
     if task.is_valid():
         task_obj = task.run()
         return JsonResponse({'task_id':task_obj.id,'time_out':task_obj.timeout})
@@ -114,7 +121,9 @@ def multi_files_transfer(request):
 
 
 def task_file_download(request):
-    pass
+    task_id = request.GET.get('task_id')
+    task_file_path = "%s/%s" % (settings.FILE_DOWNLOADS, task_id)
+    return send_zipfile(request, task_id, task_file_path)
 
 
 @login_required(login_url='/login')
@@ -126,7 +135,7 @@ def task_result(request):
 
 @login_required(login_url='/login')
 @csrf_exempt    #使用第三方组件，没法携带crsf_token
-def task_file_upload(request): #//客户端到堡垒机，临时下载
+def task_file_upload(request):
     file_obj = request.FILES.get('file')
     upload_path = '{base_path}/{personal_file}/{random_str}'.format(**{'base_path':settings.UPLOAD_FILE,'personal_file':request.user.account.id,'random_str':request.GET.get('random_str')})
     if not os.path.exists(upload_path):
